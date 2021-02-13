@@ -23,7 +23,8 @@ body {
 img {
     height: 400px;
     width: 400px;
-    display: none; /* Hide all the images on page load */
+    display: none;
+    /* Hide all the images on page load */
 }
 
 img:hover {
@@ -31,5 +32,6 @@ img:hover {
 }
 
 img.default {
-    display: block; /* Show default image on page load */
+    display: block;
+    /* Show default image on page load */
 }
