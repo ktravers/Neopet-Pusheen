@@ -32,7 +32,7 @@ $("img").dblclick(function() {
 });
 
 // Reset to default 
-$(".actions").mouseenter(function() {
+$("button").mouseenter(function() {
     $("img").hide();
     $(".default").show();
     $("body").css("background-color", "#FBF0E7");
