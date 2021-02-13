@@ -20,10 +20,15 @@ $(".play-music").click(function() {
     $(".party").show();
 });
 
-// Easter egg! Double click on Pusheen
-$("img").dblclick(function () {
+$(".hack").click(function() {
     $("img").hide();
-    $(".love").show();    
+    $(".hack").show();
+});
+
+// Easter egg! Double click on Pusheen
+$("img").dblclick(function() {
+    $("img").hide();
+    $(".love").show();
 });
 
 // Reset to default 
